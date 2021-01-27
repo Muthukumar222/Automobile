@@ -3,10 +3,10 @@ package testcases;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import Pages.loginpage;
-import Pages.svc;
+import Pages.pilot;
 import basepackage.baseclass;
 
-public class addsvc extends baseclass {
+public class addpilot extends baseclass {
   
 @BeforeTest
   public void login() throws InterruptedException {
@@ -19,7 +19,7 @@ public class addsvc extends baseclass {
 public void newsvc() throws InterruptedException
 {
 	     Thread.sleep(8000);
-		 svc sv=new svc(driver);
+		 pilot sv=new pilot(driver);
 		 sv.pilot.click();
 		 sv.addpilot.click();
 		 sv.firstname.sendKeys("Anish");
@@ -36,7 +36,7 @@ public void newsvc() throws InterruptedException
 		 sv.month.sendKeys("15");
 		 sv.exp.sendKeys("5");
 		// sv.upload.click();
-		 sv.upload.sendKeys("M:\\Project\\test.jpeg");
+		 sv.upload.sendKeys("D:\\image.jpg");
 		 Thread.sleep(10000);
 		 sv.next.click();
   }
