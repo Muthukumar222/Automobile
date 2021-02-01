@@ -15,7 +15,7 @@ public class svc {
 	 //public WebElement svctab;
 	@FindBy (xpath="//*[@name='dealer_name']")
 	public WebElement dealername;
-	private WebDriver driver;
+
 	@FindBy (xpath="//*[@name='email_id']")
 	public WebElement email;
 	@FindBy (xpath="//*[@name='vehicle_brand']")
@@ -50,8 +50,7 @@ public class svc {
 	public WebElement dropamount ;
 	@FindBy(xpath="//*[@name='pickup_drop_amount']")
 	public WebElement pickupanddrop;
-	//*[@name='pickupdrop_distance_fee']
-	//
+	
 	@FindBy(xpath="//*[@name='pickupdrop_distance_fee']")
 	public WebElement pickupdrop_distance_fee;
 	@FindBy(xpath="//*[@name='pickupdrop_double_distance']")
@@ -97,7 +96,8 @@ public class svc {
 	@FindBy (xpath="//*[@name='dealer_code']")
 	public WebElement  dealercode;
 	@FindBy (xpath="//*[@class='btn btn-dark-blue next-button undefined']")
- public WebElement submit;	
+ public WebElement submit;
+	private WebDriver driver;	
 	public svc(WebDriver driverm) {
 		this.driver=driverm;
 		PageFactory.initElements(driver,this);

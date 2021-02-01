@@ -43,6 +43,7 @@ public class pilot {
 	//public WebElement upload;
 	//WebElement upload =driver.findElement(By.xpath("//*[@class='ant-upload ant-upload-btn']"))) 
 @FindBy(xpath="//*[@class='ant-upload ant-upload-btn']")
+
 public WebElement upload;
 	@FindBy(xpath ="//*[@id=\"root\"]/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div/button")
 	public WebElement next;

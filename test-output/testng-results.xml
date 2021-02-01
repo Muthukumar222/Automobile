@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-27T17:10:32 IST" name="Default suite" finished-at="2021-01-27T17:11:26 IST" duration-ms="53636">
+  <suite started-at="2021-01-29T15:55:48 IST" name="Default suite" finished-at="2021-01-29T15:56:45 IST" duration-ms="57525">
     <groups>
     </groups>
-    <test started-at="2021-01-27T17:10:32 IST" name="Default test" finished-at="2021-01-27T17:11:26 IST" duration-ms="53636">
-      <class name="testcases.addpilot">
-        <test-method is-config="true" signature="login()[pri:0, instance:testcases.addpilot@61d6015a]" started-at="2021-01-27T17:10:32 IST" name="login" finished-at="2021-01-27T17:11:02 IST" duration-ms="30172" status="PASS">
+    <test started-at="2021-01-29T15:55:48 IST" name="Default test" finished-at="2021-01-29T15:56:45 IST" duration-ms="57525">
+      <class name="testcases.svctestcase">
+        <test-method is-config="true" signature="log()[pri:0, instance:testcases.svctestcase@61d6015a]" started-at="2021-01-29T15:55:48 IST" name="log" finished-at="2021-01-29T15:56:22 IST" duration-ms="33939" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="newsvc()[pri:1, instance:testcases.addpilot@61d6015a]" started-at="2021-01-27T17:11:02 IST" name="newsvc" finished-at="2021-01-27T17:11:26 IST" duration-ms="23375" status="PASS">
+        </test-method> <!-- log -->
+        <test-method signature="svcmethod()[pri:0, instance:testcases.svctestcase@61d6015a]" started-at="2021-01-29T15:56:22 IST" name="svcmethod" finished-at="2021-01-29T15:56:45 IST" duration-ms="23168" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newsvc -->
-      </class> <!-- testcases.addpilot -->
+        </test-method> <!-- svcmethod -->
+      </class> <!-- testcases.svctestcase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

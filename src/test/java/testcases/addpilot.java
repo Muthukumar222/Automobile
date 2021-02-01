@@ -35,9 +35,10 @@ public void newsvc() throws InterruptedException
 		 sv.shift.sendKeys("morning");
 		 sv.month.sendKeys("15");
 		 sv.exp.sendKeys("5");
-		// sv.upload.click();
+		sv.upload.click();
 		 sv.upload.sendKeys("D:\\image.jpg");
 		 Thread.sleep(10000);
 		 sv.next.click();
+		 //sendKeys("D:\\image.jpg");
   }
 }
